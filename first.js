@@ -60,7 +60,7 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
     const quantity = parseInt(document.getElementById('quantity').value);
     // Create the order summary
     const summary = `
-        <h4>your selected items and there price is :</h4>
+        <h4>your selected items and price is :</h4>
         <p><strong>Processor:</strong> ${processor}</p>
         <p><strong>GPU:</strong> ${gpu}</p>
         <p><strong>RAM:</strong> ${ram}</p>
